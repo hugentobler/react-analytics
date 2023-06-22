@@ -20,11 +20,11 @@ export default function RootLayout({
     <html lang="en">
       <GTMHead />
       <body className={`${inter.className} antialiased`}>
-        <div className="grid grid-cols-3">
-          <div className="col-span-2">
+        <div className="grid grid-cols-5">
+          <div className="col-span-4">
             {children}
           </div>
-          <div className="bg-zinc-700">
+          <div className="relative bg-zinc-700">
             <GTMDataLayerProxy />
           </div>
         </div>
