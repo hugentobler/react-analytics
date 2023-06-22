@@ -49,6 +49,7 @@ export function RadioGroupReactHookForm() {
               <FormLabel>Notify me about...</FormLabel>
               <FormControl>
                 <RadioGroup
+                  // @ts-ignore
                   onValueChange={field.onChange}
                   defaultValue={field.value}
                   className="flex flex-col space-y-1"

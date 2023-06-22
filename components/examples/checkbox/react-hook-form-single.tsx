@@ -51,6 +51,7 @@ export function CheckboxReactHookFormSingle() {
               <FormControl>
                 <Checkbox
                   checked={field.value}
+                  // @ts-ignore
                   onCheckedChange={field.onChange}
                 />
               </FormControl>
