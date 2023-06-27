@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <GTMHead />
       <body className={`${inter.className} antialiased`}>
-        <div className="grid grid-cols-5 my-2">
+        <div className="grid grid-cols-5 my-2 min-h-screen">
           <div className="col-span-4">
             <NavigationMenuDemo />
             {children}

@@ -45,7 +45,7 @@ export default function Page() {
         </div>
         <div className="space-y-2">
           <h2 className="text-sm">Event Format</h2>
-          <p>&#123;data-ui-component&#125; + &#123;data-ui-variant&#125; + &#123;data-ui-action&#125;</p>
+          <p>&#123;data-ui-component&#125; + &#123;data-ui-variant&#125; + &#123;data-ui-action&#125; + Clicked</p>
         </div>
         <div className="space-y-2">
           <h2 className="text-sm">Naming Convention</h2>

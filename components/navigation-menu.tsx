@@ -27,7 +27,7 @@ export function NavigationMenuDemo() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem data-ui-action="Visibility">
-          <Link href="/" legacyBehavior passHref>
+          <Link href="/visibility" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Visibility Events
             </NavigationMenuLink>
