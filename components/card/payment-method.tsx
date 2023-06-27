@@ -72,7 +72,7 @@ export function DemoPaymentMethod() {
               <SelectTrigger id="month">
                 <SelectValue placeholder="Month" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent data-ui-component="Dropdown Content" data-ui-variant="Month">
                 <SelectItem value="1">January</SelectItem>
                 <SelectItem value="2">February</SelectItem>
                 <SelectItem value="3">March</SelectItem>
@@ -94,7 +94,7 @@ export function DemoPaymentMethod() {
               <SelectTrigger id="year">
                 <SelectValue placeholder="Year" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent data-ui-component="Dropdown Content" data-ui-variant="Year">
                 {Array.from({ length: 10 }, (_, i) => (
                   <SelectItem key={i} value={`${new Date().getFullYear() + i}`}>
                     {new Date().getFullYear() + i}

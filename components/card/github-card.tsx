@@ -47,6 +47,7 @@ export function DemoGithub() {
               alignOffset={-5}
               className="w-[200px]"
               forceMount
+              data-ui-component="Dropdown Content"
             >
               <DropdownMenuLabel>Suggested Lists</DropdownMenuLabel>
               <DropdownMenuSeparator />

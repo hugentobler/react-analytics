@@ -52,7 +52,7 @@ export function DemoTeamMembers() {
                 <ChevronDown className="ml-2 h-4 w-4 text-muted-foreground" />
               </Button>
             </PopoverTrigger>
-            <PopoverContent className="p-0" align="end">
+            <PopoverContent className="p-0" align="end" data-ui-component="Dropdown Content" data-ui-variant="1">
               <Command>
                 <CommandInput placeholder="Select new role..."
                   data-ui-component="Dropdown Role" data-ui-variant="Input" />
@@ -107,7 +107,7 @@ export function DemoTeamMembers() {
                 <ChevronDown className="ml-2 h-4 w-4 text-muted-foreground" />
               </Button>
             </PopoverTrigger>
-            <PopoverContent className="p-0" align="end">
+            <PopoverContent className="p-0" align="end" data-ui-component="Dropdown Content" data-ui-variant="2">
               <Command>
                 <CommandInput placeholder="Select new role..." data-ui-component="Dropdown Role" data-ui-variant="Input" />
                 <CommandList>

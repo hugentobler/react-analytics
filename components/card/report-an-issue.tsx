@@ -37,7 +37,7 @@ export function DemoReportAnIssue() {
               <SelectTrigger id="area">
                 <SelectValue placeholder="Select" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent data-ui-component="Dropdown Content" data-ui-variant="Area">
                 <SelectItem value="team">Team</SelectItem>
                 <SelectItem value="billing">Billing</SelectItem>
                 <SelectItem value="account">Account</SelectItem>
@@ -52,7 +52,7 @@ export function DemoReportAnIssue() {
               <SelectTrigger id="security-level">
                 <SelectValue placeholder="Select level" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent data-ui-component="Dropdown Content" data-ui-variant="Security Level">
                 <SelectItem value="1">Severity 1 (Highest)</SelectItem>
                 <SelectItem value="2">Severity 2</SelectItem>
                 <SelectItem value="3">Severity 3</SelectItem>

@@ -5,11 +5,9 @@ import GTMHead from '@/components/gtm-head'
 import GTMBody from '@/components/gtm-body'
 import GTMDataLayerProxy from '@/components/gtm-datalayer-proxy'
 
-const inter = Inter({ subsets: ['latin'] })
+import { NavigationMenuDemo } from '@/components/navigation-menu'
 
-export const metadata = {
-  title: 'React Analytics',
-}
+const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
@@ -20,8 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <GTMHead />
       <body className={`${inter.className} antialiased`}>
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-5 my-2">
           <div className="col-span-4">
+            <NavigationMenuDemo />
             {children}
           </div>
           <div className="relative bg-zinc-700">

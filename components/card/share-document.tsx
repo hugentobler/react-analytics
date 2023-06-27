@@ -53,10 +53,10 @@ export function DemoShareDocument() {
                 </div>
               </div>
               <Select defaultValue="edit">
-                <SelectTrigger className="ml-auto w-[110px]">
+                <SelectTrigger className="ml-auto w-[110px]" data-ui-component="Dropdown">
                   <SelectValue placeholder="Select" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent data-ui-component="Dropdown Content" data-ui-variant="1">
                   <SelectItem value="edit">Can edit</SelectItem>
                   <SelectItem value="view">Can view</SelectItem>
                 </SelectContent>
@@ -79,7 +79,7 @@ export function DemoShareDocument() {
                 <SelectTrigger className="ml-auto w-[110px]">
                   <SelectValue placeholder="Select" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent data-ui-component="Dropdown Content" data-ui-variant="2">
                   <SelectItem value="edit">Can edit</SelectItem>
                   <SelectItem value="view">Can view</SelectItem>
                 </SelectContent>
@@ -102,7 +102,7 @@ export function DemoShareDocument() {
                 <SelectTrigger className="ml-auto w-[110px]">
                   <SelectValue placeholder="Select" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent data-ui-component="Dropdown Content" data-ui-variant="3">
                   <SelectItem value="edit">Can edit</SelectItem>
                   <SelectItem value="view">Can view</SelectItem>
                 </SelectContent>
